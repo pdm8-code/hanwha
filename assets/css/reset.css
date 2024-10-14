@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: HanwhaGothic;
+  font-weight: 700;
+  src: local("HanwhaGothic"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/04HanwhaGothicB.woff2")
+      format("woff2"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/04HanwhaGothicB.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: HanwhaGothic;
+  font-weight: 400;
+  src: local("HanwhaGothic"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/05HanwhaGothicR.woff2")
+      format("woff2"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/05HanwhaGothicR.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: HanwhaGothic;
+  font-weight: 300;
+  src: local("HanwhaGothic"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/06HanwhaGothicL.woff2")
+      format("woff2"),
+    url("https://static.hanwhalife.com/static/ds/font/hanwha-gothic/06HanwhaGothicL.woff")
+      format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: HanwhaGothic, -apple-system, system-ui, HelveticaNeue,
+    AppleSDGothicNeo, sans-serif;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
