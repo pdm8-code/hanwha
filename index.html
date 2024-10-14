@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       rel="icon"
       type="image/x-icon"
       href="https://static.hanwhalife.com/static/shared/favicon/favicon.ico"
-    /> -->
+    />
     <!-- //jquery 선언문 -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <!-- swiper-->
@@ -17,8 +17,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
@@ -46,13 +46,13 @@
             recomendBanner.autoplay.stop();
             $(".recomend .swiper-controls").css(
               "background-image",
-              "url(/assets/img/play.svg)"
+              "url(assets/img/play.svg)"
             );
           } else {
             recomendBanner.autoplay.start();
             $(".recomend .swiper-controls").css(
               "background-image",
-              "url(/assets/img/stop.svg)"
+              "url(assets/img/stop.svg)"
             );
           }
         });
@@ -77,13 +77,13 @@
             noticebanner.autoplay.stop();
             $(".notice .swiper-controls").css(
               "background-image",
-              "url(/assets/img/play.svg)"
+              "url(assets/img/play.svg)"
             );
           } else {
             noticebanner.autoplay.start();
             $(".notice .swiper-controls").css(
               "background-image",
-              "url(/assets/img/stop.svg)"
+              "url(assets/img/stop.svg)"
             );
           }
         });
@@ -128,18 +128,18 @@
     <div class="header-background"></div>
     <header class="header">
       <div class="container">
-        <a href="">
+        <a href="#none">
           <img
-            src="https://static.hanwhalife.com/static/hlp/direct/images/logo.svg"
+            src="assets/img/logo.svg"
             alt="한화생명 로고"
           />
         </a>
         <ul class="header-menu">
           <li>
-            <a href="">전체상품</a>
+            <a href="#none">전체상품</a>
             <div class="sub-menu">
               <div class="container">
-                <a href="" class="banner-text">
+                <a href="#none" class="banner-text">
                   <div class="banner-text-content">
                     <p>e시그니처암보험(무) 비갱신</p>
                     <p>
@@ -148,7 +148,7 @@
                     </p>
                   </div>
                   <img
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/pc-header-reco-banner-cancer.svg"
+                    src="assets/img/pc-header-reco-banner-cancer.svg"
                     alt="보험료 인상 없이 암진단•수술•치료보장"
                   />
                 </a>
@@ -157,20 +157,20 @@
                   <div>
                     <p>보험</p>
                     <ul>
-                      <li><a href="">암보험</a></li>
-                      <li><a href="">건강보험</a></li>
-                      <li><a href="">사망보험</a></li>
-                      <li><a href="">저축·연금보험</a></li>
-                      <li><a href="">유병자보험</a></li>
-                      <li><a href="">치아보험</a></li>
+                      <li><a href="#none">암보험</a></li>
+                      <li><a href="#none">건강보험</a></li>
+                      <li><a href="#none">사망보험</a></li>
+                      <li><a href="#none">저축·연금보험</a></li>
+                      <li><a href="#none">유병자보험</a></li>
+                      <li><a href="#none">치아보험</a></li>
                     </ul>
                   </div>
                   <div>
                     <p>대출</p>
                     <ul>
-                      <li><a href="">보험계약대출</a></li>
-                      <li><a href="">신용대출</a></li>
-                      <li><a href="">담보대출</a></li>
+                      <li><a href="#none">보험계약대출</a></li>
+                      <li><a href="#none">신용대출</a></li>
+                      <li><a href="#none">담보대출</a></li>
                     </ul>
                   </div>
                 </div>
@@ -179,7 +179,7 @@
             </div>
           </li>
           <li>
-            <a href="">고객센터</a>
+            <a href="#none">고객센터</a>
             <div class="sub-menu">
               <div class="container">
                 <div class="sub-menu-left">
@@ -190,15 +190,15 @@
                   <!-- 다이렉트 가입문의 / 번호 -->
                   <div class="link-wrap">
                     <div>
-                      <img src="./assets/img/kakao.svg" alt="카카오톡 상담" />
+                      <img src="assets/img/kakao.svg" alt="카카오톡 상담" />
                       <span>카카오톡 상담</span>
                     </div>
                     <div>
-                      <img src="./assets/img/tel.svg" alt="전화상담예약" />
+                      <img src="assets/img/tel.svg" alt="전화상담예약" />
                       <span>전화상담예약</span>
                     </div>
                     <div>
-                      <img src="./assets/img/email.svg" alt="이메일 상담" />
+                      <img src="assets/img/email.svg" alt="이메일 상담" />
                       <span>이메일 상담</span>
                     </div>
                   </div>
@@ -206,31 +206,29 @@
                 </div>
                 <div class="sub-menu-right">
                   <ul>
-                    <li><a href="">자주묻는질문</a></li>
-                    <li><a href="">상담하기</a></li>
-                    <li><a href="">지점찾기</a></li>
-                    <li><a href="">보험가입안내</a></li>
-                    <li><a href="">보험용어사전</a></li>
+                    <li><a href="#none">자주묻는질문</a></li>
+                    <li><a href="#none">상담하기</a></li>
+                    <li><a href="#none">지점찾기</a></li>
+                    <li><a href="#none">보험가입안내</a></li>
+                    <li><a href="#none">보험용어사전</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </li>
-          <li><a href="">공지사항</a></li>
-          <li><a href="">이벤트·혜택</a></li>
+          <li><a href="#none">공지사항</a></li>
+          <li><a href="#none">이벤트·혜택</a></li>
         </ul>
         <div class="i-class">
-          <img src="/assets/img/myPage.svg" alt="마이페이지" />
-          <img class="fa-bars" src="/assets/img/menu.svg" alt="메뉴" />
-          <!-- <i class="far fa-user"></i>
-          <i class="fas fa-bars"></i> -->
+          <img src="assets/img/myPage.svg" alt="마이페이지" />
+          <img class="fa-bars" src="assets/img/menu.svg" alt="메뉴" />
         </div>
       </div>
       <div class="header-click">
         <div class="container">
           <div class="header-control">
-            <a href="">공시실</a>
-            <a href="">앱다운로드</a>
+            <a href="#none">공시실</a>
+            <a href="#none">앱다운로드</a>
             <button type="button"></button>
           </div>
           <div>
@@ -239,20 +237,20 @@
               <div class="product-left">
                 <span>보험</span>
                 <ul>
-                  <li><a href="">암보험</a></li>
-                  <li><a href="">건강보험</a></li>
-                  <li><a href="">사망보험</a></li>
-                  <li><a href="">저축·연금보험</a></li>
-                  <li><a href="">유병자보험</a></li>
-                  <li><a href="">치아보험</a></li>
+                  <li><a href="#none">암보험</a></li>
+                  <li><a href="#none">건강보험</a></li>
+                  <li><a href="#none">사망보험</a></li>
+                  <li><a href="#none">저축·연금보험</a></li>
+                  <li><a href="#none">유병자보험</a></li>
+                  <li><a href="#none">치아보험</a></li>
                 </ul>
               </div>
               <div class="product-right">
                 <span>대출</span>
                 <ul>
-                  <li><a href="">보험계약대출</a></li>
-                  <li><a href="">신용대출</a></li>
-                  <li><a href="">담보대출</a></li>
+                  <li><a href="#none">보험계약대출</a></li>
+                  <li><a href="#none">신용대출</a></li>
+                  <li><a href="#none">담보대출</a></li>
                 </ul>
               </div>
             </div>
@@ -260,18 +258,18 @@
           <div>
             <p class="header-click-title">고객센터</p>
             <ul>
-              <li><a href="">자주묻는질문</a></li>
-              <li><a href="">상담하기</a></li>
-              <li><a href="">지점찾기</a></li>
-              <li><a href="">보험가입안내</a></li>
-              <li><a href="">보험용어사전</a></li>
+              <li><a href="#none">자주묻는질문</a></li>
+              <li><a href="#none">상담하기</a></li>
+              <li><a href="#none">지점찾기</a></li>
+              <li><a href="#none">보험가입안내</a></li>
+              <li><a href="#none">보험용어사전</a></li>
             </ul>
           </div>
           <div>
-            <a href="" class="header-click-title hover">공지사항</a>
+            <a href="#none" class="header-click-title hover">공지사항</a>
           </div>
           <div>
-            <a href="" class="header-click-title hover">이벤트·혜택</a>
+            <a href="#none" class="header-click-title hover">이벤트·혜택</a>
           </div>
         </div>
       </div>
@@ -283,33 +281,33 @@
           <div class="recomend-banner swiper-container">
             <ul class="swiper-wrapper">
               <li class="swiper-slide slide1">
-                <a href="">
+                <a href="#none">
                   <p class="slide-title">e시그니처암보험(무) 비갱신</p>
                   <p class="slide-content">
                     보험료 인상 없이 <br />암진단•수술•치료보장
                   </p>
                   <div class="slide-look">자세히 보기</div>
                   <img
+                    src="assets/img/banner_dw_in_000005.svg"
                     alt="보험료 인상 없이 암진단•수술•치료보장 e시그니처암보험(무) 비갱신"
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner_dw_in_000005.svg"
                   />
                 </a>
               </li>
               <li class="swiper-slide slide2">
-                <a href="">
+                <a href="#none">
                   <p class="slide-title">디딤돌저축보험(무)</p>
                   <p class="slide-content">
                     100% 원금 보장과 <br />확정금리 5%로 든든하게
                   </p>
                   <div class="slide-look">자세히 보기</div>
                   <img
+                    src="assets/img/banner_dw_in_000006.svg"
                     alt="100% 원금 보장과 확정금리 5%로 든든하게 디딤돌저축보험(무)"
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner_dw_in_000006.svg"
                   />
                 </a>
               </li>
               <li class="swiper-slide slide3">
-                <a href="">
+                <a href="#none">
                   <p class="slide-title">e정기보험(무)</p>
                   <p class="slide-content">
                     건강고객 조건 충족시 <br />보험료 최대 20% 할인
@@ -317,12 +315,12 @@
                   <div class="slide-look">자세히 보기</div>
                   <img
                     alt="건강고객 조건 충족시 보험료 최대 20% 할인 e정기보험(무)"
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner_dw_in_000009.svg"
+                    src="assets/img/banner_dw_in_000009.svg"
                   />
                 </a>
               </li>
               <li class="swiper-slide slide4">
-                <a href="">
+                <a href="#none">
                   <p class="slide-title">e암보험(비갱신)(무)</p>
                   <p class="slide-content">
                     비흡연자 할인으로 <br />보험료 최대 32.5% 할인
@@ -330,12 +328,12 @@
                   <div class="slide-look">자세히 보기</div>
                   <img
                     alt="비흡연자 할인으로 보험료 최대 32.5% 할인 e암보험(비갱신)(무)"
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner_dw_in_000010.svg"
+                    src="assets/img/banner_dw_in_000010.svg"
                   />
                 </a>
               </li>
               <li class="swiper-slide slide5">
-                <a href="">
+                <a href="#none">
                   <p class="slide-title">보험계약대출</p>
                   <p class="slide-content">
                     보험 보장은 그대로 <br />3분 안에 대출 바로 받기
@@ -343,7 +341,7 @@
                   <div class="slide-look">자세히 보기</div>
                   <img
                     alt="보험 보장은 그대로 3분 안에 대출 바로 받기 보험계약대출"
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner_dw_lo_000002.svg"
+                    src="assets/img/banner_dw_lo_000002.svg"
                   />
                 </a>
               </li>
@@ -357,37 +355,37 @@
           <div class="recomend-product">
             <p>보험상품</p>
             <div>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/Dg3hw61.png"
+                  src="assets/img/Dg3hw61.png"
                   alt="암"
                 />
                 <span>암</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/SLZEg.png"
+                  src="assets/img/SLZEg.png"
                   alt="건강"
                 />
                 <span>건강</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/zL4l0P3.png"
+                  src="assets/img/zL4l0P3.png"
                   alt="사망"
                 />
                 <span>사망</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/XZ9ICc942.png"
+                  src="assets/img/XZ9ICc942.png"
                   alt="저축·연금"
                 />
                 <span>저축·연금</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/fk5P92.png"
+                  src="assets/img/fk5P92.png"
                   alt="유병자"
                 />
                 <span>유병자</span>
@@ -397,23 +395,23 @@
           <div class="recomend-product">
             <p>대출상품</p>
             <div>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/vof90MnE.png"
+                  src="assets/img/vof90MnE.png"
                   alt="보험계약대출"
                 />
                 <span>보험계약대출</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/0M0.png"
+                  src="assets/img/0M0.png"
                   alt="신용대출"
                 />
                 <span>신용대출</span>
               </a>
-              <a href="#">
+              <a href="#none">
                 <img
-                  src="https://api.hanwhalife.com/tom/images/OXc2zB.png"
+                  src="assets/img/OXc2zB.png"
                   alt="담보대출"
                 />
                 <span>담보대출</span>
@@ -447,10 +445,10 @@
           </div>
         </div>
         <div class="product-menu">
-          <a href="">
+          <a href="#none">
             <div>
               <img
-                src="https://api.hanwhalife.com/tom/images/zL4l0P3.png"
+                src="assets/img/zL4l0P3.png"
                 alt="사망"
               />
               <p>사망</p>
@@ -462,10 +460,10 @@
             </p>
             <span>사망보장·실속준비</span>
           </a>
-          <a href="">
+          <a href="#none">
             <div>
               <img
-                src="https://api.hanwhalife.com/tom/images/XZ9ICc942.png"
+                src="assets/img/XZ9ICc942.png"
                 alt="저축·연금"
               />
               <p>저축·연금</p>
@@ -477,10 +475,10 @@
             </p>
             <span>목돈마련·1억모으기</span>
           </a>
-          <a href="">
+          <a href="#none">
             <div>
               <img
-                src="https://api.hanwhalife.com/tom/images/Dg3hw61.png"
+                src="assets/img/Dg3hw61.png"
                 alt="암"
               />
               <p>암</p>
@@ -492,10 +490,10 @@
             </p>
             <span>비흡연할인·100세보장</span>
           </a>
-          <a href="">
+          <a href="#none">
             <div>
               <img
-                src="https://api.hanwhalife.com/tom/images/0M0.png"
+                src="assets/img/0M0.png"
                 alt="신용대출"
               />
               <p>신용대출</p>
@@ -517,19 +515,19 @@
             <p class="notice-title">공지사항</p>
             <ul>
               <li>
-                <a href="">
+                <a href="#none">
                   <div>다이렉트 홈페이지 24년 4월 1일자 개정 안내</div>
                   <span>2024.3.27</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="#none">
                   <div>한화생명, ‘ISMS-P 인증’ 획득</div>
                   <span>2024.1.30</span>
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="#none">
                   <div>다이렉트 홈페이지 24년 1월 1일자 개정 안내</div>
                   <span>2023.12.21</span>
                 </a>
@@ -542,21 +540,21 @@
               보험을 가입부터 관리까지 한번에!<br />한화생명 모바일앱을
               만나보세요.
             </p>
-            <a href="#">
+            <a href="#none">
               <img
-                src="https://static.hanwhalife.com/static/hlp/direct/images/img_store_google.svg"
+                src="assets/img/img_store_google.svg"
                 alt="구글 플레이 스토어 다운로드"
               />
             </a>
-            <a href="#">
+            <a href="#none">
               <img
-                src="https://static.hanwhalife.com/static/hlp/direct/images/img_store_apple.svg"
+                src="assets/img/img_store_apple.svg"
                 alt="앱 스토어 다운로드"
               />
             </a>
             <div class="notice-qr">
               <img
-                src="https://static.hanwhalife.com/static/hlp/direct/images/img_qr.svg"
+                src="assets/img/img_qr.svg"
                 alt="앱 다운로드 QR 코드"
               />
               <span>앱 다운로드 QR 코드</span>
@@ -564,7 +562,7 @@
           </div>
         </div>
         <div class="notice-banner">
-          <a href="#" class="notice-banner-left">
+          <a href="#none" class="notice-banner-left">
             <div>
               <p class="notice-banner-title">온라인 보험 이벤트</p>
               <p class="notice-banner-content">
@@ -572,14 +570,14 @@
               </p>
             </div>
             <img
-              src="/assets/img/event-banner.jpg"
+              src="assets/img/event-banner.jpg"
               alt="온라인 보험 가입하면 네이버페이 상품권 지급!"
             />
           </a>
           <div class="notice-banner-right swiper-container">
             <ul class="swiper-wrapper">
               <li class="swiper-slide slide1">
-                <a href="">
+                <a href="#none">
                   <div>
                     <p class="notice-banner-title">글로벌암보호서비스</p>
                     <p class="notice-banner-content">
@@ -587,13 +585,13 @@
                     </p>
                   </div>
                   <img
-                    src="/assets/img/banner-woo.jpg"
+                    src="assets/img/banner-woo.jpg"
                     alt="시그니처 암보험을 통해 국내 최초로 시작됩니다."
                   />
                 </a>
               </li>
               <li class="swiper-slide slide2">
-                <a href="#">
+                <a href="#none">
                   <div>
                     <p class="notice-banner-title">Carrot</p>
                     <p class="notice-banner-content">
@@ -604,13 +602,13 @@
                     </span>
                   </div>
                   <img
-                    src="/assets/img/banner-carrot.jpg"
+                    src="assets/img/banner-carrot.jpg"
                     alt="적게 탄만큼 적게내는 캐롯 퍼마일 자동차보험"
                   />
                 </a>
               </li>
               <li class="swiper-slide slide3">
-                <a href="#">
+                <a href="#none">
                   <div>
                     <p class="notice-banner-title">
                       ISMS-P, 인증 최초 심사통과
@@ -620,7 +618,7 @@
                     </p>
                   </div>
                   <img
-                    src="https://static.hanwhalife.com/static/hlp/direct/images/banner/banner-isms-p.svg"
+                    src="assets/img/banner-isms-p.svg"
                     alt="한화생명의 고객 정보 안전하게 보호합니다"
                   />
                 </a>
@@ -636,31 +634,31 @@
       <div class="container">
         <ul class="footer-header">
           <li>
-            <a href="">개인정보처리방침</a>
+            <a href="#none">개인정보처리방침</a>
           </li>
           <li>
-            <a href="">고객권리안내문</a>
+            <a href="#none">고객권리안내문</a>
           </li>
           <li>
-            <a href="">이용약관</a>
+            <a href="#none">이용약관</a>
           </li>
           <li>
-            <a href="">전자거래이용약관</a>
+            <a href="#none">전자거래이용약관</a>
           </li>
           <li>
-            <a href="">선불전자지급수단이용약관</a>
+            <a href="#none">선불전자지급수단이용약관</a>
           </li>
           <li>
-            <a href="">보험금융상품등록부</a>
+            <a href="#none">보험금융상품등록부</a>
           </li>
           <li>
-            <a href="">지적재산권 및 법적한계</a>
+            <a href="#none">지적재산권 및 법적한계</a>
           </li>
           <li>
-            <a href="">신용정보활용체제</a>
+            <a href="#none">신용정보활용체제</a>
           </li>
           <li>
-            <a href="">이메일수집거부</a>
+            <a href="#none">이메일수집거부</a>
           </li>
         </ul>
         <!-- // footer-header -->
@@ -687,29 +685,29 @@
         <!-- //footer-content -->
         <div class="footer-mark">
           <div class="footer-mark-left">
-            <a href="">
+            <a href="#none">
               <img
-                src="https://static.hanwhalife.com/static/direct/content-footer/wa-mark.png"
+                src="assets/img/wa-mark.png"
                 alt=""
               />
             </a>
             <p>웹 접근성 인증마크 <br />10년 연속 획득</p>
-            <a href="">
+            <a href="#none">
               <img
-                src="https://static.hanwhalife.com/static/direct/content-footer/isms-p-mark.png"
-                alt=""
+                src="assets/img/isms-p-mark.png"
+                alt="웹 인증 마크"
               />
             </a>
             <p>개인정보보호 <br />관리체계 인증</p>
           </div>
           <button type="button">Family Site</button>
           <ul>
-            <li><a href="#">한화생명</a></li>
-            <li><a href="#">한화손해보험</a></li>
-            <li><a href="#">한화저축은행</a></li>
-            <li><a href="#">한화자산운용</a></li>
-            <li><a href="#">한화투자증권</a></li>
-            <li><a href="#">캐롯손해보험</a></li>
+            <li><a href="#none">한화생명</a></li>
+            <li><a href="#none">한화손해보험</a></li>
+            <li><a href="#none">한화저축은행</a></li>
+            <li><a href="#none">한화자산운용</a></li>
+            <li><a href="#none">한화투자증권</a></li>
+            <li><a href="#none">캐롯손해보험</a></li>
           </ul>
         </div>
         <!-- //footer-mark -->
